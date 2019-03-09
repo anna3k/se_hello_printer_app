@@ -17,5 +17,5 @@ script:
 
 deploy:
   provider: heroku
-  app: se_hello_printer_app
+  app: guarded-reef-92096
   api_key: ${HEROKU_API_KEY}
