@@ -4,7 +4,7 @@ Simple Flask App
 .. image:: https://travis-ci.org/anna3k/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/anna3k/se_hello_printer_app
     
-    .. image:: https://app.statuscake.com/button/index.php?Track=ReAele4yez&Days=1&Design=6
+.. image:: https://app.statuscake.com/button/index.php?Track=ReAele4yez&Days=1&Design=6
     :target: https://www.statuscake.com
     
 
