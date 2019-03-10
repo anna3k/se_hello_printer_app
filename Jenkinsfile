@@ -17,8 +17,7 @@ pipeline {
               step([$class: 'XUnitBuilder',
                 thresholds: [
                   [$class: 'SkippedTreshold', failureTheshold: '0'],
-                  [$class: 'FailedTreshold', failureTheshold: '1']
-                ]
+                  [$class: 'FailedTreshold', failureTheshold: '1']],
                 tools: [[$class: 'JUnitType', pattern: 'test_results.xml']]])
           }
         }
