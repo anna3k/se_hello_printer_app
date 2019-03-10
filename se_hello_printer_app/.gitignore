@@ -1,0 +1,4 @@
+**/*.pyc
+.cache
+coverage.xml
+test_results.xml
