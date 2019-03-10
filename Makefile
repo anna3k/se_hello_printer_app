@@ -9,10 +9,10 @@ lint:
 
 test:
 	PYTHONPATH=. py.test  --verbose -s
-	test_cov
-	    PYTHONPATH=. py.test --verbose -s --cov=.
-	test_xunit
-	    -cov-report xml --junit-xml=test_results.xml
+test_cov
+	PYTHONPATH=. py.test --verbose -s --cov=.
+test_xunit
+	PYTHONPATH=. py.test -s -cov-report xml --junit-xml=test_results.xml
 
 run:
 	python main.py
