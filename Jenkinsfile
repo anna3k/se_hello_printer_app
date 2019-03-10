@@ -6,7 +6,7 @@ pipeline {
 	            sh 'make deps'
         	}
         }
-        stage('Lint') {
+        stage('Linter') {
             steps {
 	            sh 'make lint'
         	}
@@ -18,7 +18,7 @@ pipeline {
                 thresholds: [
                   [$class: 'SkippedTreshold', failureTheshold: '0'],
                   [$class: 'FailedTreshold', failureTheshold: '1']],
-                tools: [[$class: 'JUnitType', pattern: 'test_results.xml']]])
+                  tools: [[$class: 'JUnitType', pattern: 'test_results.xml']]])
           }
         }
     }
